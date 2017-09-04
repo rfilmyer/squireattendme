@@ -22,3 +22,16 @@ footer {
 footer p {
 	margin: 5px;
 }
+
+.preload {
+	display: none;
+}
+
+img.card {
+    position: absolute;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
