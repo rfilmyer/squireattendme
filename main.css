@@ -5,11 +5,13 @@ html {
 body {
 	background-image: url("background.jpg");
 	background-size: auto 100%;
-	background-position: center center
+	background-position: center center;
+	overflow: hidden;
 }
 
 footer {
 	text-align: right;
+	font-family: arial;
 	background-color: white;
 	opacity: 0.75;
 	width: min(600px, 100%);
