@@ -1,12 +1,11 @@
 "use strict";
-// (c) Roger Filmyer, 2017. MIT License.
+// MIT License btw HaHAA
 
 function createCard(cardType, mouseEvent) {
 	const origAudio = document.getElementById(cardType+"-audio");
 	const newAudio = origAudio.cloneNode()
 	const origImage = document.getElementById(cardType+"-image");
 	const newImage = origImage.cloneNode();
-	//const newImage = origImage;
 
 	newAudio.play()
 
