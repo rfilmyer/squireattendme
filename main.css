@@ -3,22 +3,22 @@ html {
 }
 
 body {
-	background-image: url("background.jpg");
-	background-size: auto 100%;
+	background-image: url('background.jpg');
 	background-position: center center;
+	background-size: auto 100%;
 	overflow: hidden;
 }
 
 footer {
-	text-align: right;
-	font-family: arial;
 	background-color: white;
-	opacity: 0.75;
-	width: min(600px, 100%);
-	margin: 10px;
-	position: absolute;
 	bottom: 0;
+	font-family: arial;
+	margin: 10px;
+	opacity: 0.75;
+	position: absolute;
 	right: 0;
+	text-align: right;
+	width: min(600px, 100%);
 }
 
 footer p {
@@ -30,10 +30,10 @@ footer p {
 }
 
 img.card {
-    position: absolute;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    position: absolute;
     user-select: none
 }
